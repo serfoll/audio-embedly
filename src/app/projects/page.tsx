@@ -12,7 +12,6 @@ const ProjectsPage = () => {
   const [username, setUsername] = useState("");
   const [userProjects, setUserProjects] = useState([]);
   const [errorMessage, setErrorMessage] = useState("");
-
   const fetchBlobs = async () => {
     const response = await fetch("/api/fetchBlobs");
 
