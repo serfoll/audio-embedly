@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Audio Embedly",
+  description: "Embed audio files onto any website",
 };
 
 export default function RootLayout({

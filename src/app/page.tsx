@@ -1,7 +1,12 @@
 /** @format */
+import { AudioUpload } from "@/components";
 
 const Home = () => {
-  return <>Audio Embedly</>;
+  return (
+    <>
+      <AudioUpload />
+    </>
+  );
 };
 
 export default Home;
