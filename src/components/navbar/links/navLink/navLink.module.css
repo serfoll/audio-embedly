@@ -1,0 +1,14 @@
+/** @format */
+
+.container {
+  border-radius: 20px;
+  font-weight: 500;
+  min-width: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+.active {
+  background-color: var(--btn);
+  color: var(--bg);
+}

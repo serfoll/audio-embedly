@@ -1,0 +1,19 @@
+/** @format */
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logout {
+  background-color: var(--btn);
+  border: none;
+  border-radius: 8px;
+  color: var(--bg);
+  cursor: pointer;
+  font-weight: 500;
+  min-width: 100px;
+  padding: 10px;
+  text-align: center;
+}
